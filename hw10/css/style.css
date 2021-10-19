@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 300px;  
+    background-color: rgb(250, 215, 120);
+}
+
+section {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 40px;
+    max-width: 50%;
+    width: 200px;
+    min-width: 200px;
+    min-height: 275px;
+    transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+span {
+    color: rgb(0, 128, 58);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    color: darkslategray;
+}
