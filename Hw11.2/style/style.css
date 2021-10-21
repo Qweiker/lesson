@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 5%;
+    background-color: #464F54;
+}
+
+.title {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    padding: 1% 2%;
+    background-color: #181818;
+    color: white;
+    min-width: 800px;
+}
+
+hr {
+    color: #303030;
+    background-color: #303030;
+    border: solid 1px;
+}
+
+.littletitle {
+    background-color: #FBC02D;
+    position: absolute;
+    right: 50px;
+    top: 134px;
+    min-width: 700px;
+    padding: 1% 2%;
+}
+
+img {
+    padding: 10px 15px;
+    max-width: 100%;
+    transition: all ease-in-out 0.5s;
+}
+
+a {
+    transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+    filter: drop-shadow(0px 0px 1px white);
+}
+
+a:hover img {
+    transform: scale(1.5);
+}
+
+section {
+    background-color: white;
+    min-height: 600px;
+}
+
+.verticalline {
+    border-left: 1px solid #E8EBED;
+    position: absolute;
+    left: 140px;
+    height: 600px;
+}
+
+h3 {
+    font-size: 19px;
+    padding: 200px 75px 10px 100px;
+    font-family: 'latolight';
+    color: gray;
+}
+
+h2 {
+    font-size: 77px;
+    padding:  0 75px 0 100px;
+    font-family: 'latobold';
+}
+
+.secondh3 {
+    padding: 0 75px 20px 100px;
+    font-family: 'latolight_italic';
+}
+
+.second-p {
+    font-size: 26px;
+    padding: 0 75px 20px 100px;
+    font-family: 'playfair_displayitalic';
+}
+
+p {
+    font-size: 26px;
+    padding: 0 75px 0 100px;
+    font-family: 'playfair_displayregular';
+}
+
+h1 {
+    font-family: 'latolight';
+}
+
+.first-p {
+    padding: 0;
+    font-family: 'latolight';
+    color: gray;
+}

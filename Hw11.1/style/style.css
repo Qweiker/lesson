@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'playfair_displayregular';
+    padding: 40px 40px 0 40px;
+}
+
+p {
+    font-family: 'latolight';
+    padding: 0 40px 0 40px;
+}
+
+.first::first-letter {
+    font-size: 100px;
+    font-family: 'playfair_displayregular';
+    float: left;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+blockquote {
+    font-family: 'latolight_italic';
+    font-size: 20px;
+    margin-left: 5%;
+    
+}
+
+button {
+    font-size: 20px;
+    padding: 1% 3%;
+    margin-left: 5%;
+    color: orange;
+    background-color: white;
+    border-color: orange;
+    cursor:pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+button:hover {
+    background-color: black;
+}
+  
