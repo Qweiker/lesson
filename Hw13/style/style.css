@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'ralewaythin';
+    font-size: 300;
+    background-color: #F9F8FB;
+}
+
+.hat {
+    padding: 3% 10% 0 10%;
+    position: relative;
+}
+
+.hat__navigation-menu {
+    position: absolute;
+    left: 50%;
+    bottom: 90%;
+    min-width: 40%;
+    flex-wrap: wrap;
+}
+
+.hat__heading {
+    font-family: 'pacificoregular';
+    max-width: max-content;
+    bottom: 90%;
+    padding-left: 5%;
+    position: absolute;
+    font-size: 50px;
+}
+
+.hat__list {
+    list-style: none;
+    display: inline-flex;
+    padding: 0 1%;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 0.5s;
+}
+
+.link:hover {
+    transform: scale(1.2);
+    border-top: orangered solid;
+}
+
+.hat__strawberry  {
+    min-width: 1500px;
+    min-height: 1087px;
+}
+
+.hat__white {
+    position: absolute;
+    max-width: 20%;
+    bottom: 50%;
+    left: 15%;
+}
+
+.hat__heading2 {
+    font-family: 'ralewaythin_heavy';
+    font-size: 60px;
+}
+
+p {
+    font-size: 17px;
+    padding-bottom: 10%;
+}
+
+button {
+    font-size: 20px;
+    padding: 4%;
+    background-color: orangered;
+    border: none;
+    box-shadow: 0 0 5px 0 black;
+    color: white;
+    font-family: 'ralewaythin';
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+button:hover {
+	transform: scale(1.2);
+}
+i {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 83%;
+    font-size: 30px;
+}
+
+.second-block {
+    background-color: #00B1B1;
+    color: white;
+}
+
+.second-block__turquoise {
+    position: relative;
+    max-width: 20%;
+    max-height: 200px;
+    left: 60%;
+    top: -500px;
+}
+
+.second-block__heading {
+    font-family: 'ralewaythin_heavy';
+    font-size: 60px;
+}

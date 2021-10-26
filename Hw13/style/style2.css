@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+    text-align: center;
+}
+
+.imgs {
+    padding: 10% 40% 0 0;
+    position: relative;
+}
+
+.imgs__background {
+    z-index: 0;
+    position: absolute;
+}
+
+.imgs__yellow-blue {
+    position:absolute;
+    z-index:1;
+}
+
+.main-info {
+    position: relative;
+    max-width: 100%;
+}
+
+.main-info__info {
+    background: #111A28;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.info__nike {
+    float: left;
+    padding: 3% 0 3% 3%;
+}
+
+.info__shoes {
+    float: left;
+}
+
+.main-info__text {
+    float: right;
+    color: whitesmoke;
+    max-width: 300px;
+}
+
+p {
+    color: gray;
+}
+
+.maininfo__rating-area {
+	overflow: hidden;
+	width: 265px;
+	margin: 0 auto;
+}
+.maininfo__rating-area:not(:checked) > input {
+	display: none;
+}
+.maininfo__rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.maininfo__rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.maininfo__rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.maininfo__rating-area:not(:checked) > label:hover,
+.maininfo__rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.maininfo__rating-area > input:checked + label:hover,
+.maininfo__rating-area > input:checked + label:hover ~ label,
+.maininfo__rating-area > input:checked ~ label:hover,
+.maininfo__rating-area > input:checked ~ label:hover ~ label,
+.maininfo__rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+
+.main-info__main-list {
+    display: inline-flex;
+}
+
+
+
+.main-info__link {
+    text-decoration: none;
+    color: grey;
+}
+
+.main-info__list {
+    list-style: none;
+    padding: 5px 20px 5px 20px;
+    border: solid black;
+}
+
+.main-info__little-link {
+    text-decoration: none;
+    color: grey;
+}
