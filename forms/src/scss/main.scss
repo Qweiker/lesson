@@ -1,0 +1,28 @@
+@import "blocks/pay-form";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: ralewaythin;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2 {
+    color: black;
+    font-weight: 900;
+}
+
+h3 {
+    color: grey;
+    font-weight: 500;
+}

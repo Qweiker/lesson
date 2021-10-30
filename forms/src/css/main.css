@@ -1,0 +1,178 @@
+.payment {
+  padding: 100px 0;
+  background-color: gray;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-holder {
+  max-width: 335px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pay-form {
+  padding: 0 0 0;
+  background-color: white;
+}
+.pay-form__heading {
+  background: #F0E3AF;
+  max-width: 335px;
+  width: 100%;
+  display: block;
+  padding: 25px 25px 25px 25px;
+  margin: 0 0 30px 0;
+  position: relative;
+}
+.pay-form__dollar {
+  float: right;
+  font-size: 20px;
+  color: grey;
+}
+.pay-form__man {
+  font-size: 13px;
+  color: grey;
+}
+.pay-form__input-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 25px 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pay-form__label {
+  color: gray;
+  margin: 0 0 15px;
+  display: block;
+  width: 100%;
+}
+.pay-form__input, .pay-form__select {
+  position: relative;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 0;
+  height: 45px;
+  padding: 10px 7px;
+  width: 100%;
+}
+.pay-form__input_cvv {
+  max-width: 95px;
+}
+.pay-form__input:focus, .pay-form__select:focus {
+  border-color: #058080;
+}
+.pay-form__select-holder {
+  position: relative;
+  width: 100%;
+}
+.pay-form__select-holder:after {
+  top: 50%;
+  content: "";
+  right: 3px;
+  position: absolute;
+  border: 10px solid transparent;
+  border-top: 12px solid grey;
+  -webkit-transform: translateY(-18%);
+          transform: translateY(-18%);
+}
+.pay-form__select-holder_month {
+  max-width: 175px;
+}
+.pay-form__select-holder_year {
+  max-width: 95px;
+}
+.pay-form__cvv-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.pay-form__cvv-description {
+  font-size: 13px;
+  color: grey;
+}
+.pay-form__cvv-description a {
+  color: inherit;
+  -webkit-transition: color ease-in-out 0.5s;
+  transition: color ease-in-out 0.5s;
+}
+.pay-form__cvv-description a:hover {
+  color: #058080;
+}
+.pay-form__btn {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  border: none;
+  background-color: #429063;
+  cursor: pointer;
+  color: white;
+  margin-bottom: 20px;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+.pay-form__btn:hover {
+  color: wheat;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.pay-form__cancel-holder {
+  margin-bottom: 20px;
+}
+.pay-form__cancel {
+  text-align: center;
+  color: inherit;
+  max-width: 100%;
+  -webkit-transition: color ease-in-out 0.5s;
+  transition: color ease-in-out 0.5s;
+}
+.pay-form__cancel:hover {
+  color: #058080;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: ralewaythin;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h2 {
+  color: black;
+  font-weight: 900;
+}
+
+h3 {
+  color: grey;
+  font-weight: 500;
+}

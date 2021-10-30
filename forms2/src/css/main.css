@@ -1,0 +1,155 @@
+.payment {
+  background-color: gray;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-holder {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pay-form {
+  padding: 30px 50px;
+  color: white;
+  margin: 0 20px;
+}
+.pay-form__heading {
+  margin-bottom: 50px;
+}
+.pay-form__main-list {
+  list-style: none;
+}
+.pay-form__list {
+  display: inline;
+}
+.pay-form__link {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  font-family: "pacificoregular";
+  -webkit-transition: border ease-in-out 0.5s;
+  transition: border ease-in-out 0.5s;
+}
+.pay-form__link:hover {
+  border-bottom: 2px solid orangered;
+}
+.pay-form__link:active {
+  border-bottom: solid orangered;
+}
+.pay-form__label {
+  width: 100%;
+  line-height: 30px;
+}
+.pay-form__input {
+  position: relative;
+  outline: none;
+  border: 2px solid #A689CA;
+  border-radius: 0;
+  height: 45px;
+  padding: 10px 7px;
+  width: 100%;
+  background: none;
+  margin: 0 0 15px;
+  width: 260px;
+  max-width: 100%;
+  color: white;
+}
+.pay-form__input-checkbox {
+  position: relative;
+  margin-bottom: 15px;
+}
+.pay-form__checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
+.pay-form__checkbox-label {
+  font-size: 15px;
+  padding-left: 25px;
+}
+.pay-form__checkbox-label::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.pay-form__checkbox-label::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../../icons/check.png) no-repeat;
+  background-size: 15px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.pay-form__btn {
+  background: #23AE92;
+  height: 40px;
+  width: 260px;
+  max-width: 100%;
+  border: none;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  color: white;
+  margin: 0 0 15px;
+}
+.pay-form__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.pay-form__main-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pay-form__listik {
+  display: inline;
+  padding: 0 20px;
+}
+.pay-form__link-footer {
+  color: grey;
+  font-size: 15px;
+  -webkit-transition: color ease-in-out 0.5s;
+  transition: color ease-in-out 0.5s;
+}
+.pay-form__link-footer:hover {
+  color: whitesmoke;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "pacificoregular";
+  font-size: 20px;
+}
+
+.container {
+  background-image: url(../img/m.png), linear-gradient(58deg, #3023ae 0%, #7c48c3 53%, #c86dd7 100%);
+  background-repeat: no-repeat;
+}
